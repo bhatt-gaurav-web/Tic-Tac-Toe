@@ -57,9 +57,6 @@ body{
     color: white;
     border-radius: 1rem;
 }
-.hide{
-    display: none;
-}
 footer{
     margin-top: 4rem;
     
@@ -69,5 +66,10 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 4rem;
+    margin-top: 2rem;
+}
+.hide{
+    display: none;
 }
