@@ -42,17 +42,20 @@ boxes.forEach((box) => {
 
         console.log(count);
     if(turn0){
-
-
         box.classList.add("color");
         box.innerText = "O";
         turn0 = false;
+        box.classList.remove("color-x");
+
+
     } else{
 
 
         box.classList.add("color-x");
         box.innerText = "X";
         turn0 = true;
+        box.classList.remove("color");
+        
     }
     box.disabled = true;
 
